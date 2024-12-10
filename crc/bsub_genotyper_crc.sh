@@ -9,7 +9,7 @@
 
 
 
-wd="/lila/data/lareauc/levinej/mito_working_directory/crc"
+wd="/data/lareauc/levinej/mito_working_directory/smack_notebooks/crc"
 hdir="${wd}/h5_files"
 BAM="/data/lareauc/projects/mitochondria/mtscatac_split_bams_for_jon/CRC_data/crc_for_jon/crc_mtscatac.chrM.bam"
 BC="/data/lareauc/projects/mitochondria/mtscatac_split_bams_for_jon/CRC_data/crc_for_jon/barcodes.tsv"

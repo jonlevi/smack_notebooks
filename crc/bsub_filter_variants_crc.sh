@@ -6,7 +6,7 @@
 #BSUB -q cpuqueue
 #BSUB -J "[1-1]"
 
-wd="/lila/data/lareauc/levinej/mito_working_directory/crc"
+wd="/data/lareauc/levinej/mito_working_directory/smack_notebooks/crc"
 hdir="${wd}/h5_files"
 
 smack -wd $wd --debug filter-variants $hdir mtscATAC
