@@ -5,7 +5,7 @@
 #BSUB -R "rusage[mem=128] span[hosts=1]"
 #BSUB -q cpuqueue
 #BSUB -sla lsSC
-#BSUB -J "maeF[2-2]"
+#BSUB -J "maeF[1-2]"
 
 j=$LSB_JOBINDEX
 i=$(cat /data/lareauc/levinej/mito_working_directory/smack_notebooks/maester/maester_IDs.txt | awk -v ln=$j "NR==ln")
