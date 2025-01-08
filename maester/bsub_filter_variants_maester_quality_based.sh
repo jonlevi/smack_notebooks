@@ -4,7 +4,6 @@
 #BSUB -o /home/levinej4/bsub_logs/maester_quality_filter_%I_%J.out
 #BSUB -R "rusage[mem=128] span[hosts=1]"
 #BSUB -q cpuqueue
-#BSUB -sla lsSC
 #BSUB -J "maeFQ[1-2]"
 
 j=$LSB_JOBINDEX
